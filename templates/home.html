@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Bosh sahifa{% endblock title %}
+
+{% block content %}
+    <div class="jumbotron container bg-image">
+        <h1 class="display-4 word-weight">Assalomu alaykum!</h1>
+        <p class="lead word-weight-size">Erali Abdinazarovning shaxsiy blogiga xush kelibsiz.</p>
+        <hr class="my-4">
+        <p>Bu yerda siz dasturlash va dasturchilarga kerak bo'ladigan so'nggi yangiliklardan xabardor bo'lishingiz mumkin.</p>
+        <a class="btn btn-primary btn-sm" href="{% url 'article_list' %}" role="button">Postlarni ko'rish</a>
+        <a href="https://t.me/Erali_Abdinazarov/" class="btn btn-primary"><i class="fa fa-telegram"></i></a>
+        <a href="https://www.facebook.com/erali.abdinazarov.7/" class="btn btn-primary"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/abdinazarov_erali/" class="btn btn-primary"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/erali-abdinazarov-23320220b/" class="btn btn-primary"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <div class=" container hr"></div>
+    <div class="container">
+        <div class="card-deck">
+            <div class="card card-img bg-light" style="width: 17.8rem;">
+                <img src="https://www.forumdaily.com/wp-content/uploads/2019/11/5-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D1%85-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-4.jpg" alt="Programmer" style="width:100%">
+                <div class="card-body">
+                    <h5 class="card-title">Mobile developer</h5>
+                   <p class="card-text">Mobile developers are a type of software developer. They specialise in mobile technology such as building apps for Google's Android,
+                       Apple's iOS and Microsoft's Windows Phone platforms. For this reason job titles for this type of role also include Android developer and iOS developer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 7 mins ago</small>
+                </div>
+            </div>
+            <div class="card card-img bg-light" style="width: 17.8rem;">
+                <img src="https://miro.medium.com/max/1400/0*C3Pm_upQVi0NGvQl.jpg" alt="Programmer" style="width:100%">
+                <div class="card-body">
+                    <h5 class="card-title">Full-Stack developer</h5>
+                   <p class="card-text">Put simply, full stack developers are the Swiss army knives of the development world. As masters of multiple programming languages,
+                       these savvy professionals are capable of transitioning seamlessly from one development environment to the next. </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+            </div>
+            <div class="card card-img bg-light" style="width: 17.8rem;">
+                <img src="https://miro.medium.com/max/1400/1*_BPTrCYmC7-3uyt9LCs6mQ.jpeg" alt="Programmer" style="width:100%">
+                <div class="card-body">
+                    <h5 class="card-title">Backend developer</h5>
+                   <p class="card-text">Back end developers, in contrast,
+                       refine the software code that communicates with servers, databases, or other proprietary software that conveys information to front end interfaces.
+                       Those knowledgeable in both front end and back end are called full stack developers, meaning they are well versed in both disciplines. </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 4 mins ago</small>
+                </div>
+            </div>
+            <div class="card card-img bg-light" style="width: 17.8rem;">
+                <img src="https://infomir.uz/wp-content/uploads/2020/05/1.jpeg">
+                <div class="card-body">
+                    <h5 class="card-title">Frontend developer</h5>
+                   <p class="card-text">Front end developers work to optimize the visible parts of an application for web browsers and mobile devices. Front end platforms are usually built
+                       with HTML, CSS, and JavaScript; however, they can also be made via pre-packaged code libraries or content management systems like WordPress.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 1 mins ago</small>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.texnoman.uz/uploads/blogs/133ce6b08a4d32376d20175830ee2472.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Be the best programmer</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.ytimg.com/vi/mreYMIgx1RE/maxresdefault.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>This is definitely something you can do</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, vel scelerisque nisl consectetur</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://i0.wp.com/mohirdev.uz/wp-content/uploads/photo_1612878016927_276ae52aad9d95215330607ed61619ab-1.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>We trust you</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="text-div bg-light">
+            <p class="text-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
+                by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
+                you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend
+                to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words,
+                combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore
+                always free from repetition, injected humour, or non-characteristic words etc.</p>
+          </div>
+    </div>
+{% endblock content %}

@@ -1,0 +1,42 @@
+.bg-image {
+    background-image: url(https://static.terabayt.uz/crop/s/2/728_410_GWaXOUw_KTcPM1jw08g3pSV8wbLAcCwr.jpg);
+    background-size: cover;
+    height: 500px;
+    color: #9CAEFA;
+    font-size: 24px;
+    font-weight: 500;
+}
+.bg-image:hover{
+    opacity: 0.8;
+    color: white;
+    transition: opacity 1.5s;
+}
+.word-weight{
+    font-weight: 500;
+}
+.word-weight-size{
+    font-size: 24px;
+    font-weight: 500;
+}
+.dropdown-item{
+    color: white;
+}
+.card-img:hover{
+    box-shadow: 4px 4px 6px 6px #9FA1A6;
+    transition: box-shadow 1.3s;
+}
+.card-img:hover{
+    opacity: 0.5;
+    transition: opacity 1.3s;
+}
+.text-div{
+    color: #656A66;
+    padding: 20px;
+}
+.hr{
+    border: 1px solid lightblue;
+    margin-bottom: 30px;
+}
+.card-deck{
+    margin-bottom: 15px;
+}
